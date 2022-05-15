@@ -1,0 +1,46 @@
+.table__head {
+    color: #fff;
+    height: 54px;
+    background-color: #474955;
+    box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+}
+
+.head__row, .body__row {
+    width: 100%;
+}
+
+.row__item:hover {
+    cursor: pointer;
+}
+
+.notSorting::after{
+    margin-left: 40px;
+    content: url('../images/line.svg');
+}
+
+.fromTop::after {
+    margin-left: 40px;
+    content: url('../images/V.svg');
+}
+
+.fromBottom::after {
+    margin-left: 40px;
+    content: url('../images/unV.svg');
+}
+
+#id {
+    width: 110px;
+}
+
+#title {
+    width: 530px;
+}
+
+#body {
+    width: 432px;
+}
+
+.table__head tr th {
+    vertical-align: inherit;
+    text-align: center;
+}

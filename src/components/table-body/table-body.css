@@ -1,0 +1,23 @@
+.table {
+    border: 1px solid black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 137.69%;
+    color: #474955;
+}
+
+.body__row td {
+    border: 1px solid #E3E6EC;
+    text-align: justify;
+    vertical-align: inherit;
+}
+
+.body__row:hover {
+    background-color: #d2d2d2;
+}
+
+.body__row .textCenter {
+    text-align: center;
+}

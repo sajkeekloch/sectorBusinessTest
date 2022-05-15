@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 137.69%;
+    color: #474955;
+}
+
+.pagination__nums {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.pagination li {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.pagination button {
+    background-color: transparent;
+    border: none;
+}
+
+.pagination li:hover, .pagination button:hover {
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    cursor: default;
+}
+
+.current {
+    color: #7EBC3C;
+}

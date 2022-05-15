@@ -1,0 +1,30 @@
+.searchBar {
+    width: 50%;
+    align-self: flex-start;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.searchBar__loupe {
+    margin-left: -37px;
+    background-color: transparent;
+}
+
+.searchBar__loupe:hover {
+    cursor: text;
+}
+
+.searchBar__input {
+    width: 100%;
+    height: 52px;
+    background: #5A5C66;
+    padding: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 137.69%;
+    color: #B3B7BF;
+    border: none;
+}
